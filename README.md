@@ -1,7 +1,7 @@
 - Program1 => Bisection Method
-- Program2 => Regula Falsi Method
-- Program3 => Secant Method
-- Program4 => Iteration Method
+- Program2 => Iteration Method
+- Program3 => Regula Falsi Method
+- Program4 => Secant Method
 - Program5 => Newton Rahpson Method
 - Program6 => Gauss Eimination Method
 - Program7 => Gauss Jordan Method

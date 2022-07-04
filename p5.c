@@ -1,1 +1,1 @@
-//Newton Rahpson Method~ Megha
+//Newton Rahpson Method
