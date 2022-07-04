@@ -1,0 +1,15 @@
+- Program1 => Bisection Method
+- Program2 => Regula Falsi Method
+- Program3 => Secant Method
+- Program4 => Iteration Method
+- Program5 => Newton Rahpson Method
+- Program6 => Gauss Eimination Method
+- Program7 => Gauss Jordan Method
+- Program8 => Newton Forward Interpolation
+- Program9 => Newton backward Interpolation
+- Program10 => Lagrange's Interpolation Method
+- Program11 => Trapezoidal Rule
+- Program12 => Simpson's 1/3 Rule
+- Program13 => Simpson's 3/8 Rule
+- Program14 => Fit a Line
+- Program15 => Fit a Parabola
