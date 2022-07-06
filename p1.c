@@ -3,7 +3,7 @@
 #include<stdlib.h>
 #include<math.h>
 
-#define EPOCH 0.00001
+#define EPOCH 0.000005
 #define F(x) x*log10(x)-1.2
 
 int main(){
@@ -35,7 +35,7 @@ int main(){
             x1 = x0;
         }
         step+=1;
-    }while (fabs(f0)>EPOCH);
+    }while (fabs((x1-x2)/x1)>EPOCH || f(0)!=0);
     root = x0;
     printf("\t\tRoot = %f", root);
     return 0;

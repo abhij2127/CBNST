@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
-#define EPOC 0.0005
+#define EPOC 0.00005
 #define F(x) x*x*x-2*x+1
 #define g(x) (x*x*x+1)/2
 
@@ -57,6 +57,6 @@ void Iter(float x0, float e, int N){
             return;
         }
 
-    }while(fabs(F(x1))>e);
+    }while(fabs((x1-x2)/x1)>e);
     printf("Root is : ", x1);
 }
